@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  padding: 50px;
+  background-color: aliceblue;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+span {
+  color: #ff0000;
+}
+
+#app {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: cornsilk;
+  text-align: center;
+
+  hr {
+    margin-bottom: 2%;
+  }
+}

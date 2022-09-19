@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="header">Student Data</h1>
+    <label for="fName">First Name <span>*</span></label>
+    <input type="text" id="firstName" />
+    <label for="lName">Last Name <span>*</span></label>
+    <input type="text" id="lastName" />
+
+    <label for="age">Age <span>*</span></label>
+    <input type="text" id="age" />
+    <label for="phoneNumber">Phone Number <span>*</span></label>
+    <input type="text" id="phoneNumber" placeholder="ex. 000-000-0000" />
+    <label for="email">Valid Email Address <span>*</span></label>
+    <input type="text" id="email" />
+    <label for="classes">Classes <span>*</span></label>
+    <input type="text" id="classOne" placeholder="Class 1" />
+    <input type="text" id="classTwo" placeholder="Class 2" />
+    <input type="text" id="classThree" placeholder="Class 3 (optional)" />
+
+    <input type="submit" id="submit" value="Submit" />
+    <button id="getName">Retrieve All Students</button>
+
+    <div id="app"></div>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
